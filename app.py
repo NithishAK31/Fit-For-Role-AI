@@ -97,7 +97,7 @@ def generate_tailored_suggestions(resume_text, job_desc, skill_score):
 def main():
     st.set_page_config(layout="wide")
     st.title("FIT-FOR-ROLE.ai")
-    st.markdown("### Resume-Job Matching for Engineering Students")
+
     
     # File upload
     resume_file = st.file_uploader("Upload Your Resume (PDF)", type="pdf")
